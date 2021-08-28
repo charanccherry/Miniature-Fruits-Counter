@@ -1,0 +1,71 @@
+.fruits-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: purple;
+  height: 100vh;
+  padding: 15px;
+}
+@media screen and (max-width: 576px) {
+  .fruits-container {
+    padding: 15px;
+  }
+}
+.fruit-card {
+  background-color: black;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: inset;
+}
+@media screen and (max-width: 576px) {
+  .fruit-card {
+    margin: 10px;
+  }
+}
+.heading {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+}
+@media screen and (max-width: 576px) {
+  .heading {
+    font-size: 12px;
+  }
+}
+span {
+  color: purple;
+}
+.fruit-item-container {
+  display: flex;
+}
+.fruits-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fruit-image {
+  padding: 20px;
+  height: 50vh;
+  width: 30vw;
+}
+@media screen and (max-width: 576px) {
+  .fruit-image {
+    height: 50vh;
+    width: 50vw;
+  }
+}
+.fruit-button {
+  color: white;
+  background-color: purple;
+  font-weight: bold;
+  width: 100px;
+  margin: 10px;
+  border-style: none;
+  border-radius: 10px;
+  padding: 5px;
+  cursor: pointer;
+  outline: none;
+}
